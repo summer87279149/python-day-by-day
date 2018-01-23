@@ -1,6 +1,6 @@
 #! python3
 #
-# 下载今后几天的天气预报，并以纯文本打印出来
+# 下载天气预报，并以纯文本打印出来
 from pprint import pprint
 import json, requests, sys,urllib.parse
 if len(sys.argv)<2:
